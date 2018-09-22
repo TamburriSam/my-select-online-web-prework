@@ -1,9 +1,9 @@
 def my_select(array)
   x = 0 
  select = []
- while x << array.length 
+ while x < array.length 
  if yield(array[x])
- select << array[i]
+ select << array[x]
  end
  i+=1
  end
