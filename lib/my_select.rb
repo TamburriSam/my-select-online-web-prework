@@ -5,7 +5,7 @@ def my_select(array)
  if yield(array[x])
  select << array[x]
  end
- i+=1
+ x+=1
  end
  select
  
