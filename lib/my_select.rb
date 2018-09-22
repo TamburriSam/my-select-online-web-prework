@@ -1,4 +1,4 @@
-def my_select(collection)
+def my_select(array)
   x = 0 
  select = []
  while x << array.length 
